@@ -26,16 +26,22 @@
 
 		<form action="#">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-12">
 					<label for="method">Method:</label>
 					<select id="method" name="method">
-					  <option>PUT</option>
-					  <option>DELETE</option>
-					  <option>GET</option>
+						<option></option>
+						<option>GET</option>
+						<option>POST</option>
+						<option>PUT</option>
+						<option>DELETE</option>
+					</select>
 				</div>
-				<div class="col-md-8">
-				  <label for="uri">URI:</label>
-				  <input type="text" id="uri" name="uri"/>
+			</div>
+			<br />
+			<div class="row">
+				<div class="col-md-12">
+					<label for="uri">URI:</label>
+					<input type="text" id="uri" name="uri"/>
 				</div>
 			</div>
 			<br />
